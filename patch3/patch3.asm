@@ -21,18 +21,18 @@
     p1sz    dd  8    
 
     a2  dd  01CF707Eh 
-    p2  db  68h, 71h, 0Bh, 00h, 00h, 0E8h, 0C0h, 0BDh, 52h, 5Dh, 6Ah, 05h, 0FFh, 15h, 0ECh
-        db  2Bh, 7Eh, 02h, 0C3h
-    p2sz    dd  19 
+    p2  db  68h, 71h, 0Bh, 00h, 00h, 0ffh, 15h, 05ch, 2bh, 7eh, 02h, 6ah, 05h, 0ffh, 15h
+        db  0ech, 2bh, 7eh, 02h, 0c3h
+    p2sz    dd  20 
 
     a3  dd  01D9D555h
     p3  db  0E8h, 62h, 9Bh, 0F5h, 0FFh, 90h
     p3sz    dd  6
     
     a4  dd  01CF70BCh
-    p4  db  0FFh, 15h, 0B4h, 23h, 7Eh, 02h, 68h, 71h, 0Bh, 00h, 00h, 0E8h, 88h, 0BDh, 52h
-        db  5Dh, 0C3h
-    p4sz    dd  17
+    p4  db  0FFh, 15h, 0B4h, 23h, 7Eh, 02h, 68h, 71h, 0Bh, 00h, 00h, 0ffh, 15h, 20h, 23h
+        db  7eh, 02h, 0c3h
+    p4sz    dd  18
     
     winname    db  "Counter-Strike",0
     .data?
