@@ -1,0 +1,5 @@
+* Counter-Strike 1.6 wallhack
+** patch1 and patch 3 - different variants (turn on wallhack)
+** patch1b and patch3b - turn off wallhack
+** Addresses are hardcoded so needs modification to work (probably)
+** Built with masm32 ide.
